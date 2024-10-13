@@ -2,6 +2,7 @@
 @font-face {
     font-family: "crimsons";
     src: url(fonts/CrimsonPro-SemiBold.ttf);
+    touch-action: manipulation;
 }
 *{
     margin: 0px;
