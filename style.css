@@ -1,0 +1,87 @@
+
+@font-face {
+    font-family: "crimsons";
+    src: url(fonts/CrimsonPro-SemiBold.ttf);
+}
+*{
+    margin: 0px;
+    font-family: "crimsons";
+}
+#container{
+    margin: auto;
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    max-width: 300px;
+    max-height: 300px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: hsla(0, 3%, 94%, 0.903);
+    padding-top: 50px;
+    font-size: 1.5em;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 4px 4px 15px black;
+    
+
+}
+
+#celsius{
+    margin: 10px;
+}
+#farenheit{
+    margin: 10px;
+    
+ 
+}
+label{
+    font-weight: bold;
+    font-size: 1.12em;
+    
+}
+#mysubmit{
+    margin: 5px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: hsl(217, 98%, 84%);
+    font-size: 1em;
+}
+#title{
+    margin: 5px;
+    color: hsl(210, 100%, 50%);
+}
+#bgimage{
+    background-image: url(images/437245.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    filter: blur(1.5px);
+}
+#number{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 80%;
+    text-align: center;
+}
+#container:hover{
+    background-color: hsla(0, 0%, 91%, 0.903);
+}
+label:hover{
+    background-color: hsla(0, 0%, 77%, 0.903);
+    transition: all 0.1s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+label:active{
+    background-color: hsla(0, 0%, 83%, 0.903);
+    border-radius: 5px;
+}
+#mysubmit:active{
+    background-color: hsl(218, 97%, 88%);
+}
+#mysubmit:hover{
+    cursor: pointer;
+}
